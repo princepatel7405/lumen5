@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#topdiv{
+    background-color: #24282f;
+    height: 110vh;
+}
+#toptext{
+    color: white;
+    width: 35%;
+    height: 500px;
+    margin-top: 50px;
+    border: 1px solid red;
+    font-family: 'Poppins', sans-serif;
+}
+#toptext>h6:nth-child(1){
+    font-weight: 300;
+    font-size: 18px;
+    margin-bottom: 10px
+    
+}
+#toptext>h6:nth-child(3){
+    font-size: 21px;
+    font-weight: 300;
+    width: 70%;
+}
+#toptext>h3{
+    font-weight: 700;
+    line-height: 50px;
+    font-size: 37px;
+}
+#topdiv{
+
+    margin-top: 100px;
+display: flex;
+justify-content: center;
+gap: 15px;
+}
+#media{
+    width: 70px;
+    border-radius: 50%;
+    position: relative;
+    left: 50%;
+    top: -30%;
+    z-index: 5;
+    
+    transition:all  0.3s ease linear ;
+    /* transform: scale(1.5); */
+}
+#media:hover{
+    cursor: pointer;
+    transform: scale(1.2)  ;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+#topvideo{
+    margin-top: 80px;
+}
+#pop-up{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    z-index: 10;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, .9);
+    display: none;
+}
+#pop-up>video{
+width: 60%;
+border-radius: 10px;
+transform: translate(40%,30%);
+
+
+}
+#pop-up>span{
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    z-index: 10;
+    font-size: 50px;
+    color: white;
+    cursor: pointer;
+}
+#toptext>button{
+    position: relative;
+    top: 10%;
+    left: 5%;
+    font-size: 15px;
+    border-radius: 30px;
+    padding: 15px 20px;
+    background-color: 
+    #5846f6;
+    border: 0;
+    color: white;
+}
+#toptext>button:hover{
+    background-color: 
+    #311cec;
+    cursor: pointer;
+}
+#logodiv>h5{
+font-size: 21px;
+font-family: 'Poppins', sans-serif;
+font-weight: 300;
+text-align: center;
+}
+#logodiv{
+    margin-top: 80px;
+}
+#logodiv div:nth-child(2){
+    margin-top: 20px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}

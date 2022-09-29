@@ -10,12 +10,21 @@
     margin: auto;
     position: sticky;
     top:0;
+
     
     /* border: 1px solid red; */
+}
+
+p{
+    cursor: pointer;
+}
+p:hover{
+    color: #434a71;
 }
 #navbar_logo{
     /* height: auto; */
    width: 30%; 
+   cursor: pointer;
    /* border: 1px solid blue; */
    /* padding-left: 100px;
    padding-right: 100px; */
@@ -45,15 +54,18 @@
     width: 70px;
     border: 1px solid #5846f6;
     border-radius: 20px;
+    cursor: pointer;
 }
 #navbar_signup_button{
   background-color: #5846f6;
   color: white;
 }
+
 ul{
 list-style:none;
 background: white;
-}
+} 
+
 ul li{
 display : inline-block;
 position: relative;

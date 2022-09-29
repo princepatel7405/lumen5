@@ -3,14 +3,14 @@ const navbar = () => {
     <img src="https://storage.googleapis.com/lumen5-site-images/L5-logo/L5-logo-header.png"/>
 </div>
 <div id="navbar_menu">
-    <div>Pricing</div>
-    <div>Enterprise</div>
-    <div>Case studies</div>
+    <div><p>Pricing</p></div>
+    <div><p>Enterprise</p></div>
+    <div><p>Case studies</p></div>
     <div><ul>
-        <li><a href="#">Learn <b>v</b></a>
+        <li><a href="#"><p>Learn <b>v</b></p></a>
         <ul class="dropdown">
-            <li><a href="#">Resource</a></li>
-            <li><a href='#'>Blog</a></li>
+            <li><a href="#"><p>Resource</p></a></li>
+            <li><a href='#'><p>Blog</p></a></li>
         </ul>
         </li>
     </ul></div>

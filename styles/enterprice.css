@@ -4,7 +4,7 @@
 }
 #topdiv{
     background-color: #24282f;
-    height: 110vh;
+    height: 110vh;   
 }
 #toptext{
     color: white;
@@ -17,8 +17,7 @@
 #toptext>h6:nth-child(1){
     font-weight: 300;
     font-size: 18px;
-    margin-bottom: 10px
-    
+    margin-bottom: 10px;
 }
 #toptext>h6:nth-child(3){
     font-size: 21px;
@@ -113,4 +112,103 @@ text-align: center;
     display: flex;
     gap: 30px;
     justify-content: center;
+}
+.middletext>img:nth-child(1){
+    background-color: #311cec;
+    padding: 10px;
+    border-radius: 50%;
+    
+}
+.middlecont{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 120px;
+}
+.middletext{
+    justify-content: left;
+    width: 35%;
+}
+.middletext>h3{
+    margin-top: 10px;
+    font-size: 37px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    line-height: 50px;
+    
+}
+.middleimage{
+    margin-top: 100px;
+}
+.middletext>h5{
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 30px;
+    font-weight: 300;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.middletext>a{
+    font-size: 20px;
+    text-decoration: none;
+}
+.middletext>div{
+    width: 75%;
+    margin-top: 50px;
+}
+.middletext hr{
+    color: #e5e5e5;
+    opacity: .5;
+    width: 100%;
+}
+.middletext>h5:nth-child(6){
+    font-size: 20px;
+    width: 400px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    margin-top: 50px;
+}
+.middletext>h5:nth-child(7){
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+.middletext>h5:nth-child(8){
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    margin-top: -30px;
+}
+.middletext>div:last-child{
+    margin-top: -5%;
+}
+#icon2{
+    background-color: #02d3da;
+    color: white;
+}
+#cont-2>.middletext,#cont-3>.middletext{
+    width: 34%;
+}
+#cont-2>.middletext>h5:nth-child(3){
+    font-size: 23px;
+
+}
+
+#cont-2 hr,#cont-3 hr{
+    margin-top: 50px;
+    width: 80%;
+}
+#cont-2 img:last-child,#cont-3 img:last-child{
+    margin-top: -7%;
+}
+#cont-2{
+    background-color: #fafafb;
+    padding: 100px 0;
+}
+#icon3{
+    background-color: #f8558e;
+}
+#cont-3 h5:nth-child(6),#cont1 h5:nth-child(6),#cont-2 h5:nth-child(6){
+    font-size: 16px;
+    width: 70%;
+    line-height: 27px;
 }

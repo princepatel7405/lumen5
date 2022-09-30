@@ -8,6 +8,12 @@
     height:400px;
     width:100%;
     background: #24282F;
+    /* display: flex; */
+}
+#f-conatiner{
+    height:400px;
+    width:100%;
+    background: #24282F;
     display: flex;
 }
 #sample{

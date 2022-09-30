@@ -6,4 +6,34 @@ function signupinfo(){
     `;
 };
 
-export {signupinfo};
+
+function resourse(){
+    return `<div>
+                <img src="https://storage.googleapis.com/lumen5-site-images/l5-blog.png" alt="">
+                <p>Read all about marketing in the Lumen5 Blog</p>
+                <div>
+                    <a href="">Let's go</a>
+                    <i class="material-icons">trending_flat</i>
+                </div>
+            </div>
+
+        <div>
+            <img src="https://storage.googleapis.com/lumen5-site-images/l5-podcast.png" alt="">
+            <p>Tune into the Supercharge Marketing Podcast</p>
+            <div>
+                <a href="">Let's go</a>
+                <i class="material-icons">trending_flat</i>
+            </div>
+        </div>
+
+        <div>
+            <img src="https://storage.googleapis.com/lumen5-site-images/l5-video.png" alt="">
+            <p>Watch and learn from our Lumen5 Video Series</p>
+            <div>
+                <a href="">Let's go</a>
+                <i class="material-icons">trending_flat</i>
+            </div>
+        </div>` ;
+};
+
+export {signupinfo, resourse};

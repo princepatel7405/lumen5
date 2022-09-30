@@ -6,10 +6,12 @@
     font-family: 'Poppins', sans-serif;
 }
 #navbar{
-    width:90%;
+    width:100%;
     margin: auto;
     position: sticky;
     top:0;
+    background: white;
+
 
     
     /* border: 1px solid red; */
@@ -23,7 +25,7 @@ p:hover{
 }
 #navbar_logo{
     /* height: auto; */
-   width: 30%; 
+   width: 20%; 
    cursor: pointer;
    /* border: 1px solid blue; */
    /* padding-left: 100px;
@@ -45,7 +47,7 @@ p:hover{
 
 }
 #navbar_menu{
-    width:50%;
+    width:45%;
     /* border: 1px solid black; */
     justify-content: space-evenly;
 }

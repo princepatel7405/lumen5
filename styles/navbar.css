@@ -11,10 +11,14 @@
     position: sticky;
     top:0;
     background: white;
-
-
+    height: 20px;
     
     /* border: 1px solid red; */
+    z-index: 100000;
+}
+
+#navbar a{
+    text-decoration: none;
 }
 
 p{

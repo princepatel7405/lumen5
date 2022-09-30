@@ -5,7 +5,7 @@ const navbar = () => {
 <div id="navbar_menu">
     <div><p>Pricing</p></div>
     <div><p>Enterprise</p></div>
-    <div><p>Case studies</p></div>
+    <div><a href="casestudies.html"><p>Case studies</p></a></div>
     <div><ul>
         <li><a href="#"><p>Learn <b>v</b></p></a>
         <ul class="dropdown">

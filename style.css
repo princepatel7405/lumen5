@@ -3,6 +3,10 @@ h1{
     font-family: "Poppins",sans-serif;
 }
 
+hr{
+    border: 1px solid rgb(216, 215, 215);
+}
+
 #container{
     width: 75%;
     margin: auto;
@@ -69,17 +73,19 @@ img{
     margin: auto;
     margin-top: 20px;
     margin-bottom: 10px;
-    padding: 20px;
+    padding: 40px;
     border: 1px solid black;
     justify-content: space-between;
 }
 
 #btn_ex > button{
-    padding: 10px;
+    margin: auto;
+    padding: 15px;
     border-radius: 20px;
-    border: #2E86C1;
+    border: 1px solid #2E86C1;
     color: #2E86C1;
     background-color: white;
+    font-size: 15px;
 }
 
 
@@ -128,17 +134,327 @@ img{
 /* Explore section here */
 
 #explore{
-    width: 80%;
+    width: 70%;
     margin: auto;
-    padding: 10px;
-    margin-top: 20px;
-    margin-bottom: 50px;
+    padding: 20px;
+    margin-top: 80px;
+    margin-bottom: 80px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    border: 1px solid red;
+    grid-template-rows: repeat(2, 200px);
+    grid-gap: 30px;
+    /* border: 1px solid red; */
 }
 
-#explore > iframe {
+#explore > div {
     border-radius: 20px;
+    width: 100%;
+    margin: auto;
+    height: 98%;
+   
 }
+
+#explore > div > iframe{
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+
+#video_template{
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 200px);
+    grid-gap: 30px;
+    /* border: 1px solid red; */
+}
+
+#video_template > div {
+    border-radius: 20px;
+    width: 100%;
+    margin: auto;
+    height: 98%;
+   
+}
+
+#video_template > div > iframe{
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+
+/* intro sections */
+
+#intro{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    
+}
+
+#intro > .para{
+    width: 60%;
+}
+
+#intro > .para > div{
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+    font-family: "Poppins", sans-serif;
+}
+
+#intro > .para > div > h1{
+    font-size: 35px;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+    line-height: 1.2;
+    text-align: left;
+    font-family: "Poppins", sans-serif;
+}
+
+#intro > .para > div > p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    font-size: 20px; 
+    font-family: "Poppins", sans-serif;  
+}
+
+#intro > .img{
+    margin: auto;
+    padding: 20px;
+}
+
+#intro > div > img{
+    width: 90%;
+}
+
+#intro > div > div > button{
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    background-color: #2E86C1;
+    border: none;
+    align-items: left;
+}
+
+/* intro 2 */
+
+#intro2{
+    width: 70%;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    
+    display: flex;
+}
+
+#intro2 > .para2{
+    width: 70%;
+}
+
+#intro2 > .para2 > .p1{
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+    font-family: "Poppins", sans-serif;
+}
+
+#intro2 > .para2 > .p1 > h1{
+    font-size: 35px;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+    line-height: 1.2;
+    text-align: left;
+    font-family: "Poppins", sans-serif;
+}
+
+#intro2 > .para2 > .p1 > p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    font-size: 20px; 
+    font-family: "Poppins", sans-serif;  
+}
+#intro2 > .para2 > .p1 > a{
+    text-decoration: none;
+    color: #2E86C1;
+    display: flex;
+}
+
+#intro2 > .img2{
+    margin: auto;
+    padding: 30px;
+}
+
+#intro2 > .para2 >.p2 > img{
+    width: 20%;
+}
+
+#intro2 > .para2 > .p2{
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+    font-family: "Poppins", sans-serif;
+}
+#intro2 > .para2 > .p2 > h3{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.5;
+}
+#intro2 > .para2 > .p2 > p{
+    line-height: 0.5;
+}
+
+/* intro 3 */
+
+#intro3{
+    width: 70%;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    
+    display: flex;
+}
+
+
+#intro3 > .para2{
+    width: 70%;
+}
+
+#intro3 > .para2 > .p1{
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+    font-family: "Poppins", sans-serif;
+}
+
+#intro3 > .para2 > .p1 > h1{
+    font-size: 35px;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+    line-height: 1.2;
+    text-align: left;
+    font-family: "Poppins", sans-serif;
+}
+
+#intro3 > .para2 > .p1 > p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    font-size: 20px; 
+    font-family: "Poppins", sans-serif;  
+}
+#intro3 > .para2 > .p1 > a{
+    text-decoration: none;
+    color: #2E86C1;
+    display: flex;
+}
+
+#intro3 > .img2{
+    margin: auto;
+    padding: 30px;
+}
+
+#intro3 > .para2 >.p2 > img{
+    width: 20%;
+}
+
+#intro3 > .para2 > .p2{
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+    font-family: "Poppins", sans-serif;
+}
+#intro3 > .para2 > .p2 > h3{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.5;
+}
+#intro3 > .para2 > .p2 > p{
+    line-height: 0.5;
+}
+
+
+/* intro 4 */
+
+#intro4{
+    width: 70%;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+   
+    display: flex;
+}
+
+
+#intro4 > .para2{
+    width: 70%;
+}
+
+#intro4 > .para2 > .p1{
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+    font-family: "Poppins", sans-serif;
+}
+
+#intro4 > .para2 > .p1 > h1{
+    font-size: 35px;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+    line-height: 1.2;
+    text-align: left;
+    font-family: "Poppins", sans-serif;
+}
+
+#intro4 > .para2 > .p1 > p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    font-size: 20px; 
+    font-family: "Poppins", sans-serif;  
+}
+#intro4 > .para2 > .p1 > a{
+    text-decoration: none;
+    color: #2E86C1;
+    display: flex;
+}
+
+#intro4 > .img2{
+    margin: auto;
+    padding: 30px;
+}
+
+#intro4 > .para2 >.p2 > img{
+    width: 20%;
+}
+
+#intro4 > .para2 > .p2{
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+    font-family: "Poppins", sans-serif;
+}
+#intro4 > .para2 > .p2 > h3{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.5;
+}
+#intro4 > .para2 > .p2 > p{
+    line-height: 0.5;
+}
+
+

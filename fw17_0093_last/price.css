@@ -6,7 +6,8 @@
         }
 
         .hg {
-            margin: auto;
+          margin-top: 2%;
+          margin-bottom: 3%;
             text-align: center;
            
         }
@@ -203,11 +204,15 @@
         #poster2>div {
             width: 51%;
             margin:auto;
+            
         }
 
         #poster2>div>p {
             font-size: 21px;
             text-align: center;
+        }
+        #oo{
+            font-size: large;
         }
 
         #poster2>div>button {

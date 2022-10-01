@@ -1,4 +1,4 @@
-import navbar from "../components/navbar_imp.js";
+import navbar from "../components/navblack_imp.js";
 document.getElementById("navbar").innerHTML=navbar()
 
 import { slider,slideActive } from "../components/slider_exp.js";

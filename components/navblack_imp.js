@@ -9,8 +9,8 @@ const navbar = () => {
    <div ><p class='learn_nav'>Learn <b class='learn_nav'>v</b></div>
 <!-- </div> -->
     <!-- <div id="navbar_login_buttons"> -->
-        <button id="navbar_login_button">Login</button>
-        <button id="navbar_signup_button">Sign up</button>
+        <button id="navbar_login_button"><a href="./Login&Signup/login.html">Login</a></button>
+        <button id="navbar_signup_button"><a href="./Login&Signup/Signup.html">Signup</a></button>
     </div>
     
 `

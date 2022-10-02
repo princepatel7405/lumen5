@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     /* font-family: sans-serif; */
-    color: #48507C;
+    /* color: #48507C; */
     font-family: 'Poppins', sans-serif;
 }
 #navbar{
@@ -12,6 +12,7 @@
     top:0;
     background: white;
     height: 20px;
+     color: #48507C;
     
     /* border: 1px solid red; */
     z-index: 100000;

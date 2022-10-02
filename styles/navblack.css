@@ -38,7 +38,7 @@ p{
    /* padding-left: 100px;
    padding-right: 100px; */
 } 
-#navbar_logo>img{
+#navbar_logo>a>img{
     height: 87px;
     width: 150px;
 

@@ -353,6 +353,7 @@ margin-top: -2%;
 .card>p{
     margin-top: 10px ;
     width: 200px;
+    color: #24282f;
 }
 .card:nth-child(1)>a{
     position: relative;

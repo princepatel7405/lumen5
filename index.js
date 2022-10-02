@@ -132,3 +132,11 @@ const append_videos = (data) => {
 };
 
 append_videos(videos_communications);
+
+
+
+let btn_sup = document.getElementById("sup");
+
+btn_sup.addEventListener("click", () =>{
+    window.location.href = "./Login&Signup/Signup.html";
+})

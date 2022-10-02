@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="dashboard.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+</head>
+<body>
+    <header>
+        <div id="nav_dash">
+            <a id="jd" href="index.html">
+                <img class="rounded float-left nav-bar__logo" src="https://storage.googleapis.com/lumen5-site-images/L5-logo/L5-logo-header.png" alt="Lumen5 Logo">
+            </a>
+        </div>
+        <div id="nd1">
+            <i class="material-icons" id="slogo">search</i>
+            <input type="text" placeholder="      Search your videos">
+            <button><a href="./fw17_0093_last/price.html">
+
+                Upgrade
+            </a>
+            </button>
+        </div>
+        <button onclick="display(event)" id="Fname">
+            <!-- here -->
+        </button>
+        
+    </div>
+    </header>
+    <div class="main-body_parts">
+
+        <div id="left_sidebar">
+            <div class="overflow-container">
+                <ul class="navigation navigation-main navigation-accordion">
+                    <li class="active" id="dashboard-videos"><a><i class="material-icons">ondemand_video</i><span>All videos</span></a></li>
+                    <li class="" id="instant-videos"><a href="/dashboard/instant-videos/"><i class="material-icons">movie_filter</i><span>Instant videos</span></a></li>
+                    <li class="" id="brand-kits"><a href="/dashboard/brand-kits/"><i class="material-icons">palette</i><span>Brand kits</span></a></li>
+                    <li class="" id="saved-templates"><a href="/dashboard/saved-templates/"><i class="material-icons">auto_awesome_mosaic</i><span>Saved templates</span></a></li>
+                    <li class=""><a href="/dashboard/analytics/"><i class="material-icons">bar_chart</i><span>Analytics</span></a></li>
+                    <li><hr class="mx-4 my-0"></li><li class="" id="trash-videos"><a><i class="material-icons">delete_outline</i><span>Trash</span></a></li>
+                    <br>
+                    <li class="add-project d-flex justify-content-between" id="project_add"><span class="my-auto">Projects</span>
+                        <button type="button" class="lumen5-button btn btn-rounded btn-default btn-outline btn-xs btn-no-min-width" >
+                            + Add</span></button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="right_body">
+            <h1 id="user_heading"><span>
+                All videos
+            </span> 
+                <div id="fillname"></div>
+            </h1>
+            <div id="last_text" >
+                <i class="material-icons standalone-icon-position" id="plus">add</i>
+                 <p>
+
+                     <span>New video</span>
+                 </p> 
+                </div>
+        </div>
+        <div id="user_info">
+            <div  class="user-details-text">
+                <span id="fullname">
+                    <!-- here -->
+                     
+                </span><span id="fullemail">
+                    <!-- here -->
+
+                </span>
+            </div>
+            <ul>
+                <li>
+
+                    <a href="/dashboard/" class="dropdown-item icon-dropdown-item" id="dashboard"><i class="icon-left material-icons">ondemand_video</i><span>
+
+                        All videos
+                    </span>
+                    </a>
+                </li>
+                <li>
+
+                    <div class="dropdown-divider" role="separator"></div>
+                    <a href="/dashboard/account/#workspaces" class="dropdown-item icon-dropdown-item" id="workspaces"><i class="icon-left material-icons">work</i><span>
+
+                        Workspaces
+                    </span>
+                    </a>
+                </li>
+                <li>
+
+                    <a href="/dashboard/account/#team" class="dropdown-item icon-dropdown-item" id="team-members"><i class="icon-left material-icons">people_alt</i><span>
+
+                        Team members
+                    </span>
+                    </a>
+                </li>
+                <li>
+
+                    <a href="/dashboard/account/#billing" class="dropdown-item icon-dropdown-item" id="billing"><i class="icon-left material-icons">credit_card</i><span>
+
+                        Billing
+                    </span>
+                    </a>
+                </li>
+                <li>
+
+                    <a href="/dashboard/account/#settings" class="dropdown-item icon-dropdown-item" id="account"><i class="icon-left material-icons">settings</i><span>
+
+                        Account settings
+                    </span>
+                    </a>
+                </li>
+
+                <li>
+
+                    <div class="dropdown-divider" role="separator"></div><a href="/learn/" class="dropdown-item icon-dropdown-item" id="blog"><i class="icon-left material-icons">school</i>Learning hub</a>               
+                </li>    
+                    <li>
+
+                        <a href="https://help.lumen5.com" class="dropdown-item icon-dropdown-item" id="help" target="_blank"><i class="icon-left material-icons">help</i><span>
+                            
+                            Help center
+                        </span>
+                    </a>
+                </li>
+                </li>
+                <li>
+
+                    <a href="Signup.html" class="dropdown-item icon-dropdown-item" id="logout"><i class="icon-left material-icons" ">exit_to_app</i><span>
+
+                        Logout
+                    </span>
+                    </a>
+                </li>
+            </ul>
+        </div>    
+    </div>
+</body>
+</html>
+<script>
+  let data=JSON.parse(localStorage.getItem("user_information"))||JSON.parse(localStorage.getItem("user_information1"));
+  let istrue=false;
+  let info=document.getElementById("Fname")
+  let info1=document.getElementById("fillname")
+  let info2=document.getElementById("fullname")
+  let info3=document.getElementById("fullemail")
+  info.innerHTML=null
+  info1.innerHTML=null
+  let p=document.createElement("p")
+  p.innerText=data.name[0]  
+  info.append(p)  
+  let p1=document.createElement("p")
+  p1.innerText=data.name[0]  
+  info1.append(p1)  
+//   info.append(p)  
+  let p2=document.createElement("p")
+  p2.innerText=data.name  
+  info2.append(p2)  
+  let p3=document.createElement("p")
+  p3.innerText=data.email  
+  info3.append(p3)  
+//   info1.append(p1)  
+  let tab=document.getElementById("user_info")
+  function  display(event){
+      event.preventDefault();
+      
+      
+      let a=!istrue
+      if(a==true){
+          
+          tab.style.display="block"
+        }
+    }
+   
+
+    
+
+
+
+
+
+//     let info=document.getElementById("Fname")
+//         info.innerHTML=null
+//         data.forEach((el)=>{
+//          let p=document.createElement("p")
+//          p.innerText=el.name[0]   
+//          info.append(p)   
+            
+//         })
+//         // event.preventDefault();
+//         let f=ok.filter((el)=>{
+//       if(el.role==roler){
+//           return el
+//         }
+//       })
+//       displayCards(f)
+       
+//     }
+//     display(data)
+   
+</script>

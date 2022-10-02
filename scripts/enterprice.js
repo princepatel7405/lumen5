@@ -1,3 +1,12 @@
+import navbar from "../components/navblack_imp.js";
+document.getElementById("navbar").innerHTML=navbar()
+
+import { slider,slideActive } from "../components/slider_exp.js";
+document.getElementById("slider").innerHTML=slider()
+slideActive()
+
+import footer from "../components/footer_imp.js";
+document.getElementById("footer").innerHTML=footer()
 
 const video=document.querySelector("#pop-up video")
 document.getElementById("media").addEventListener("click",()=>{
@@ -43,6 +52,4 @@ document.querySelector("#popUp2 span").onclick=()=>{
 
 
 
-import { slider,slideActive } from "../components/slider_exp.js";
-document.getElementById("slider").innerHTML=slider()
-slideActive()
+

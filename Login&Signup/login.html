@@ -14,7 +14,7 @@
         <div id="left_data">
             <div id="home">
                 <!--edit a href -->
-                <a href="index.html">
+                <a href=".././index.html">
                     <img class="logo-image" src="https://storage.googleapis.com/lumen5-site-images/L5-logo/logo-white_266x156.png" alt="Lumen5 Logo" >
                 </a>
             </div>
@@ -100,7 +100,7 @@
             let name=el.name;
             if(email==el.email&&pass==el.pass){
                 let info1= new add1(name,email);  
-    localStorage.setItem("user_information1",JSON.stringify(info1))
+    localStorage.setItem("user_information",JSON.stringify(info1))
                 window.location .href="./dashboard.html"
             }
         })

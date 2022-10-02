@@ -11,7 +11,7 @@
 <body>
     <header>
         <div id="nav_dash">
-            <a id="jd" href="index.html">
+            <a id="jd" href=".././index.html">
                 <img class="rounded float-left nav-bar__logo" src="https://storage.googleapis.com/lumen5-site-images/L5-logo/L5-logo-header.png" alt="Lumen5 Logo">
             </a>
         </div>
@@ -24,7 +24,7 @@
             </a>
             </button>
         </div>
-        <button onclick="display(event)" id="Fname">
+        <button onclick="display(event)"  id="Fname">
             <!-- here -->
         </button>
         
@@ -142,8 +142,8 @@
     </div>
 </body>
 </html>
-<script>
-  let data=JSON.parse(localStorage.getItem("user_information"))||JSON.parse(localStorage.getItem("user_information1"));
+<script >
+  let data=JSON.parse(localStorage.getItem("user_information"))
   let istrue=false;
   let info=document.getElementById("Fname")
   let info1=document.getElementById("fillname")
@@ -166,17 +166,16 @@
   info3.append(p3)  
 //   info1.append(p1)  
   let tab=document.getElementById("user_info")
+  let btn=document.getElementById("Fname")
+  btn.addEventListener("dblclick",()=>{
+
+      tab.style.display="none"
+  })
   function  display(event){
       event.preventDefault();
-      
-      
-      let a=!istrue
-      if(a==true){
-          
-          tab.style.display="block"
-        }
+        tab.style.display="block"
     }
-   
+
 
     
 
